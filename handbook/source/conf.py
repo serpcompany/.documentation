@@ -18,9 +18,9 @@ sys.path.insert(0, os.path.abspath('../../'))
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'demo'
-copyright = '2023, author name'
-author = 'author name'
+project = 'SERP Handbook'
+copyright = '2023, SERP'
+author = 'SERP'
 release = '0.1'
 
 
@@ -67,7 +67,7 @@ html_theme = 'sphinx_book_theme'
 
 html_theme_options = {
 
-    "repository_url": "https://github.com/devinschumacher/demo",
+    "repository_url": "https://github.com/serpcompany/handbook",
     "use_repository_button": True,
     "launch_buttons": {
         "colab_url": "https://colab.research.google.com",
@@ -75,9 +75,6 @@ html_theme_options = {
     },
 
 }
-
-
-
 
 
 # -- Options for Sphinx Jupyter Notebooks -------------------------------------------------
