@@ -54,6 +54,7 @@ source_suffix = {
     '.ipynb': 'myst-nb',
     '.myst': 'myst-nb',
     '.html': 'html',
+    '.css': 'css',
 }
 
 # use language set by highlight directive if no language is set by role
@@ -62,7 +63,7 @@ inline_highlight_literals = False
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
-html_static_path = ['_static', '_static/images']
+html_static_path = ['_static', '_static/images','_static/images/css']
 
 
 
