@@ -1,0 +1,5 @@
+.logo__image {
+    height: 10px; /* Adjust this value as needed */
+    width: auto; /* This maintains the aspect ratio */
+}
+

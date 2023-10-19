@@ -2,24 +2,18 @@
 title: SERP Handbook
 ---
 
-# SERP
-
 ```{toctree}
 :maxdepth: 4
 :caption: Handbook
 
-About <templates/about.md>
+About <contents/about.md>
 
-Engineering/
-   Frontend coding <templates/engineering/frontend.md>
-   Backend coding <templates/engineering/backend/backend.md>
-      Code standards <templates/engineering/backend/code-standards.md>
-      Testing <templates/engineering/backend/testing.md>
-      Monitoring <templates/engineering/backend/monitoring.md>
-      Logging <templates/engineering/backend/logging.md>
-   Networking
-   Data
-   AI
-   SEO
+   Frontend coding <contents/engineering/frontend.md>
+   Backend coding <contents/engineering/backend/backend.md>
+      Code standards <contents/engineering/backend/code_quality.md>
+      Testing <contents/engineering/backend/testing.md>
+      Monitoring <contents/engineering/backend/monitoring.md>
+      Logging <contents/engineering/backend/logging.md>
+
 
 

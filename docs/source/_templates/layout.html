@@ -1,0 +1,18 @@
+{% extends "!layout.html" %}
+
+{% block footer %}
+{{ super() }}
+
+<!-- Hypothesis Script -->
+<script src="https://hypothes.is/embed.js" async></script>
+
+<!-- Utterances Script -->
+<script src="https://utteranc.es/client.js"
+        repo="serpcompany/handbook"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+{% endblock %}
