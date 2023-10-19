@@ -1,5 +1,5 @@
 ---
-title: Why does SERP exist? Our mission and strategy
+title: Why does SERP exist?
 sidebar: Handbook
 showTitle: true
 ---
