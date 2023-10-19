@@ -82,11 +82,8 @@ inline_highlight_respect_highlight = False
 inline_highlight_literals = False
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates','templates']
+templates_path = ['_templates']
 html_static_path = ['_static', '_static/images', '_static/css', '_static/js']
-html_js_files = [
-    '_static/jscustom.js',
-]
 
 # List of patterns, relative to source directory, that match files and directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
@@ -114,8 +111,8 @@ html_theme_options = {
         "deepnote_url": "https://deepnote.com",
     },
     "logo": {
-      "image_light": "_static/images/logo-light.png",
-      "image_dark": "_static/images/logo-dark.png",
+      "image_light": "images/logo-light.png",
+      "image_dark": "images/logo-dark.png",
    },
 }
 
