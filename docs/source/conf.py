@@ -45,6 +45,7 @@ extensions = [
 
 myst_enable_extensions = [
     "colon_fence",
+     "html_image",
 ]
 
 
@@ -52,6 +53,7 @@ source_suffix = {
     '.rst': 'restructuredtext',
     '.ipynb': 'myst-nb',
     '.myst': 'myst-nb',
+    '.html': 'html',
 }
 
 # use language set by highlight directive if no language is set by role
@@ -62,6 +64,7 @@ inline_highlight_literals = False
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
+html_extra_path = ['assets']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.

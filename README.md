@@ -1,8 +1,8 @@
 # README
 
-## Built with
+## Resources
 
-Guides:
+### Build Guides:
 
 - Reference [cerodell](https://cerodell.github.io/sphinx-quickstart-guide/build/html/books.html) for initial build steps. 
 - Reference [booktheme](https://sphinx-book-theme.readthedocs.io/en/stable/) for further build-out & customization.
@@ -20,3 +20,7 @@ Guides:
 - sphinx-togglebutton: Add collapsible content to your documentation
 
 See [sphinx extensions](https://sphinx-extensions.readthedocs.io/en/latest/) for more.
+
+### Commands:
+
+- Convert .md files to html: `myst-docutils-demo <name-of-file>.md`

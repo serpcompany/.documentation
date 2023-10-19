@@ -61,17 +61,27 @@ Well, that depends on who you ask...
 
 ### Sloths Enjoying Rollercoaster Parks?
 
-![SERP](assets/images/SERP-sloths-enjoying-rollercoaster-parks.jpg)
-
 *SERP doesn't stand for "Sloths Enjoying Rollercoaster Parks"...*
+
+
+```{image} assets/images/SERP-sloths-enjoying-rollercoaster-parks.jpg
+:alt: SERP
+:width: 300px
+```
+
+
 
 
 
 ### Super Exciting Rodent Party?
 
-![SERP](assets/images/SERP-super-exciting-rodent-party.jpg)
-
 *SERP doesn't stand for "Super Exciting Rodent Party"...*
+
+```{image} assets/images/SERP-super-exciting-rodent-party.jpg
+:alt: SERP
+:width: 300px
+```
+
 
 
 ### SERP Acronym
