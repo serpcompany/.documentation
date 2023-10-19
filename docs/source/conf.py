@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.abspath('../../'))
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'SERP Handbook'
-copyright = '2023, SERP'
+copyright = 'SERP'
 author = 'SERP'
 release = '0.1'
 
@@ -58,13 +58,13 @@ source_suffix = {
 
 # use language set by highlight directive if no language is set by role
 inline_highlight_respect_highlight = False
-
-# use language set by highlight directive if no role is set
 inline_highlight_literals = False
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
-html_extra_path = ['assets']
+html_static_path = ['_static', '_static/images']
+
+
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -79,14 +79,22 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #
 html_theme = 'sphinx_book_theme'
 
+
 html_theme_options = {
 
     "repository_url": "https://github.com/serpcompany/handbook",
+    "home_page_in_toc": True,
+    "show_navbar_depth": 2,
+    "toc_title": "Page TOC",
     "use_repository_button": True,
     "launch_buttons": {
         "colab_url": "https://colab.research.google.com",
         "deepnote_url": "https://deepnote.com",
     },
+    "logo": {
+      "image_light": "_static/images/logo-light.png",
+      "image_dark": "_static/images/logo-dark.png",
+   }
 
 }
 
