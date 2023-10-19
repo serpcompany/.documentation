@@ -20,7 +20,7 @@ sys.path.insert(0, os.path.abspath('../../'))
 
 project = 'SERP Handbook'
 copyright = 'SERP'
-author = 'SERP'
+# author = 'SERP'
 release = '0.1'
 
 
@@ -86,7 +86,9 @@ html_theme_options = {
 
     "repository_url": "https://github.com/serpcompany/handbook",
     "home_page_in_toc": True,
-    "show_navbar_depth": 2,
+    "collapse_navigation" : True,
+    'display_version': False,
+    "show_navbar_depth": 3,
     "toc_title": "Page TOC",
     "use_repository_button": True,
     "launch_buttons": {

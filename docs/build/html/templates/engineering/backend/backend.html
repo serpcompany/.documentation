@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>SERP &#8212; SERP Handbook 0.1 documentation</title>
+    <title>Backend Coding &#8212; SERP Handbook 0.1 documentation</title>
   
   
   
@@ -18,46 +18,47 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
-<link href="_static/styles/bootstrap.css?digest=ac02cc09edc035673794" rel="stylesheet" />
-<link href="_static/styles/pydata-sphinx-theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+  <link href="../../../_static/styles/theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+<link href="../../../_static/styles/bootstrap.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
 
   
-  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=ac02cc09edc035673794" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+  <link href="../../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
-    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
-    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" href="../../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=ac02cc09edc035673794" />
-<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794" />
-  <script src="_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=ac02cc09edc035673794"></script>
+  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=ac02cc09edc035673794" />
+<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794" />
+  <script src="../../../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=ac02cc09edc035673794"></script>
 
-    <script src="_static/documentation_options.js?v=b9472d72"></script>
-    <script src="_static/doctools.js?v=888ff710"></script>
-    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
-    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="../../../_static/documentation_options.js?v=b9472d72"></script>
+    <script src="../../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../../_static/copybutton.js?v=f281be69"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="../../../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script src="../../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="_static/design-tabs.js?v=36754332"></script>
+    <script src="../../../_static/design-tabs.js?v=36754332"></script>
     <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'index';</script>
-    <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="SERP" href="templates/about.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'templates/engineering/backend/backend';</script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Code Standards" href="code-standards.html" />
+    <link rel="prev" title="Frontend Coding" href="../frontend.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -94,7 +95,7 @@
     <div class="search-button__overlay"></div>
     <div class="search-button__search-container">
 <form class="bd-search d-flex align-items-center"
-      action="search.html"
+      action="../../../search.html"
       method="get">
   <i class="fa-solid fa-magnifying-glass"></i>
   <input type="search"
@@ -132,7 +133,7 @@
         <div class="sidebar-primary-item">
   
 
-<a class="navbar-brand logo" href="#">
+<a class="navbar-brand logo" href="../../../index.html">
   
   
   
@@ -142,8 +143,8 @@
       
     
     
-    <img src="_static/logo-light.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="_static/logo-dark.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../../../_static/logo-light.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../../../_static/logo-dark.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
   
   
 </a></div>
@@ -151,21 +152,21 @@
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1 current active">
-                <a class="reference internal" href="#">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../../index.html">
                     SERP
                 </a>
             </li>
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Handbook</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="templates/about.html">About</a></li>
-<li class="toctree-l1"><a class="reference internal" href="templates/engineering/frontend.html">   Frontend coding</a></li>
-<li class="toctree-l1"><a class="reference internal" href="templates/engineering/backend/backend.html">   Backend coding</a></li>
-<li class="toctree-l1"><a class="reference internal" href="templates/engineering/backend/code-standards.html">      Code standards</a></li>
-<li class="toctree-l1"><a class="reference internal" href="templates/engineering/backend/testing.html">      Testing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="templates/engineering/backend/monitoring.html">      Monitoring</a></li>
-<li class="toctree-l1"><a class="reference internal" href="templates/engineering/backend/logging.html">      Logging</a></li>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../about.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontend.html">   Frontend coding</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">   Backend coding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="code-standards.html">      Code standards</a></li>
+<li class="toctree-l1"><a class="reference internal" href="testing.html">      Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="monitoring.html">      Monitoring</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logging.html">      Logging</a></li>
 </ul>
 
     </div>
@@ -235,7 +236,7 @@
       
       
       
-      <li><a href="_sources/index.md" target="_blank"
+      <li><a href="../../../_sources/templates/engineering/backend/backend.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -315,7 +316,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>SERP</h1>
+    <h1>Backend Coding</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -329,54 +330,9 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section id="serp">
-<h1>SERP<a class="headerlink" href="#serp" title="Link to this heading">#</a></h1>
-<div class="toctree-wrapper compound">
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Handbook</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="templates/about.html">About</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="templates/about.html#our-mission">Our mission</a></li>
-<li class="toctree-l2"><a class="reference internal" href="templates/about.html#our-vision">Our vision</a></li>
-<li class="toctree-l2"><a class="reference internal" href="templates/about.html#what-we-do">What we do</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="templates/about.html#what-we-believe">What we believe</a></li>
-<li class="toctree-l3"><a class="reference internal" href="templates/about.html#why-it-matters">Why it matters</a></li>
-<li class="toctree-l3"><a class="reference internal" href="templates/about.html#our-strategy">Our strategy</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="templates/about.html#what-does-serp-stand-for">What does SERP stand for?</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="templates/about.html#sloths-enjoying-rollercoaster-parks">Sloths Enjoying Rollercoaster Parks?</a></li>
-<li class="toctree-l3"><a class="reference internal" href="templates/about.html#super-exciting-rodent-party">Super Exciting Rodent Party?</a></li>
-<li class="toctree-l3"><a class="reference internal" href="templates/about.html#serp-acronym">SERP Acronym</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="templates/engineering/frontend.html">   Frontend coding</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="templates/engineering/frontend.html#tech-stack">Tech stack</a></li>
-<li class="toctree-l2"><a class="reference internal" href="templates/engineering/frontend.html#naming">Naming</a></li>
-<li class="toctree-l2"><a class="reference internal" href="templates/engineering/frontend.html#linting">Linting</a></li>
-<li class="toctree-l2"><a class="reference internal" href="templates/engineering/frontend.html#qa">QA</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="templates/engineering/backend/backend.html">   Backend coding</a></li>
-<li class="toctree-l1"><a class="reference internal" href="templates/engineering/backend/code-standards.html">      Code standards</a></li>
-<li class="toctree-l1"><a class="reference internal" href="templates/engineering/backend/testing.html">      Testing</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="templates/engineering/backend/testing.html#tools">Tools</a></li>
-<li class="toctree-l2"><a class="reference internal" href="templates/engineering/backend/testing.html#functional-tests">Functional tests</a></li>
-<li class="toctree-l2"><a class="reference internal" href="templates/engineering/backend/testing.html#unit-tests">Unit tests</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="templates/engineering/backend/monitoring.html">      Monitoring</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="templates/engineering/backend/monitoring.html#tools">Tools</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="templates/engineering/backend/logging.html">      Logging</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="templates/engineering/backend/logging.html#levels">Levels</a></li>
-<li class="toctree-l2"><a class="reference internal" href="templates/engineering/backend/logging.html#format">Format</a></li>
-</ul>
-</li>
-</ul>
-</div>
+  <section id="backend-coding">
+<h1>Backend Coding<a class="headerlink" href="#backend-coding" title="Link to this heading">#</a></h1>
+<p>Baby got Back(end).</p>
 </section>
 
 
@@ -390,12 +346,21 @@ document.write(`
                 <footer class="prev-next-footer">
                   <!-- Previous / next buttons -->
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="../frontend.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Frontend Coding</p>
+      </div>
+    </a>
     <a class="right-next"
-       href="templates/about.html"
+       href="code-standards.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">SERP</p>
+        <p class="prev-next-title">Code Standards</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -444,8 +409,8 @@ document.write(`
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/bootstrap.js?digest=ac02cc09edc035673794"></script>
-<script src="_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794"></script>
+  <script src="../../../_static/scripts/bootstrap.js?digest=ac02cc09edc035673794"></script>
+<script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794"></script>
 
   <footer class="bd-footer">
   </footer>

@@ -5,15 +5,18 @@ title: SERP Handbook
 # SERP
 
 ```{toctree}
-:maxdepth: 3
+:maxdepth: 4
 :caption: Handbook
 
-Why does SERP exist? <why-does-serp-exist.md>
+About <templates/about.md>
 
 Engineering/
-   Frontend Coding <engineering/frontend.md>
-   Backend Coding <engineering/backend.md>
-   Monitoring
+   Frontend coding <templates/engineering/frontend.md>
+   Backend coding <templates/engineering/backend/backend.md>
+      Code standards <templates/engineering/backend/code-standards.md>
+      Testing <templates/engineering/backend/testing.md>
+      Monitoring <templates/engineering/backend/monitoring.md>
+      Logging <templates/engineering/backend/logging.md>
    Networking
    Data
    AI

@@ -1,5 +1,5 @@
 ---
-title: Why does SERP exist?
+title: About
 sidebar: Handbook
 showTitle: true
 ---
