@@ -1,10 +1,16 @@
 {% extends "!layout.html" %}
 
+<script src="https://hypothes.is/embed.js" async></script>
+
 {% block footer %}
 {{ super() }}
 
 <!-- Hypothesis Script -->
 <script src="https://hypothes.is/embed.js" async></script>
+
+<!-- Htmx Scripts -->
+<script src="htmx.js"></script>
+<script src="htmx.ext.shoelace.js"></script>
 
 <!-- Utterances Script -->
 <script src="https://utteranc.es/client.js"
@@ -14,5 +20,12 @@
         crossorigin="anonymous"
         async>
 </script>
+
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+                document.body.setAttribute('hx-ext', 'shoelace');
+        });
+</script>
+    
 
 {% endblock %}

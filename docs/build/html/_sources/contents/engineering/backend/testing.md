@@ -10,15 +10,10 @@ Write logic tests for all logic files.
 
 ## Testing Tools
 
-**General:**
-
 - [pytest](https://docs.pytest.org/en/7.4.x/) for general testing
+- [Django](https://docs.djangoproject.com/en/3.1/topics/testing/) built in testing tool
 - [pydantic](https://docs.pydantic.dev/latest/) for type checking and data validation
 - [mutmut](https://mutmut.readthedocs.io/en/latest/) for mutation testing
-
-**Area specific:**
-
-- [Django](https://docs.djangoproject.com/en/3.1/topics/testing/)
 
 
 ## End-to-end tests

@@ -6,3 +6,8 @@
 .bd-content {
     min-width: 800px;  /* or any other value you want */
 }
+
+.bd-article {
+    min-width: 800px;  /* or any other value you want */
+}
+```

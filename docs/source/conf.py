@@ -48,7 +48,10 @@ extensions = [
     "sphinx_inline_tabs",
     # "sphinx_autobuild",
     'hoverxref.extension',
+    
 ]
+
+rawfiles = ['docs/source/contents/html']
 
 myst_enable_extensions = [
     "colon_fence",
@@ -62,7 +65,7 @@ source_suffix = {
     '.rst': 'restructuredtext',
     '.ipynb': 'myst-nb',
     '.myst': 'myst-nb',
-    '.html': 'html',
+    # '.html': 'html',
     '.css': 'css',
 }
 

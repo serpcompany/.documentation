@@ -40,7 +40,7 @@
     <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-light.min.css" />
     <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-borderless.min.css" />
     <link rel="stylesheet" type="text/css" href="_static/css/micromodal.css" />
-    <link rel="stylesheet" type="text/css" href="_static/css/custom.css?v=4a24d3bb" />
+    <link rel="stylesheet" type="text/css" href="_static/css/custom.css?v=3c9a52a2" />
     <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -179,7 +179,6 @@
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Table of Contents</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="contents/about.html">About</a></li>
-<li class="toctree-l1"><a class="reference internal" href="contents/teams.html">Teams</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contents/engineering/frontend.html">      Frontend coding</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contents/engineering/backend/backend.html">      Backend coding</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contents/engineering/backend/code_quality.html">         Code standards</a></li>
@@ -416,6 +415,10 @@ document.write(`
 <!-- Hypothesis Script -->
 <script src="https://hypothes.is/embed.js" async></script>
 
+<!-- Htmx Scripts -->
+<script src="htmx.js"></script>
+<script src="htmx.ext.shoelace.js"></script>
+
 <!-- Utterances Script -->
 <script src="https://utteranc.es/client.js"
         repo="serpcompany/handbook"
@@ -424,6 +427,13 @@ document.write(`
         crossorigin="anonymous"
         async>
 </script>
+
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+                document.body.setAttribute('hx-ext', 'shoelace');
+        });
+</script>
+    
 
 
   </body>
