@@ -2,6 +2,8 @@
 
 ## Resources
 
+Content guided by: [posthog](https://posthog.com/handbook/)
+
 ### Build Guides:
 
 - Reference [cerodell](https://cerodell.github.io/sphinx-quickstart-guide/build/html/books.html) for initial build steps. 
