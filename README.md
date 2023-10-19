@@ -2,7 +2,7 @@
 
 ## Resources
 
-Content guided by: [posthog](https://posthog.com/handbook/)
+- Content guided by: [posthog](https://posthog.com/handbook/)
 
 ### Build Guides:
 
@@ -26,3 +26,7 @@ See [sphinx extensions](https://sphinx-extensions.readthedocs.io/en/latest/) for
 ### Commands:
 
 - Convert .md files to html: `myst-docutils-demo <name-of-file>.md`
+
+### Styling:
+
+- https://pydata-sphinx-theme.readthedocs.io/en/latest/user_guide/styling.html
