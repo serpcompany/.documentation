@@ -15,6 +15,10 @@ Following a defined set of standards and "doing things the same":
 
 Here are the tools that we all (must) use to ensure that we're all following the same standards.
 
+```python
+# let's code!
+```
+
 
 ## Python Tools
 
