@@ -1,5 +1,5 @@
 API
 ====
 
-.. automodule:: utils.numpy_example
+.. automodule:: resources.numpy_example
     :members:

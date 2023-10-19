@@ -37,11 +37,22 @@ extensions = [
     "sphinx.ext.napoleon",
     "sphinx.ext.autosectionlabel",
     "nbsphinx",
-    "myst_parser",
     "sphinx_copybutton",
-    'myst_parser',
     "sphinx_togglebutton",
+    "myst_nb",
+    "sphinx_design"
 ]
+
+myst_enable_extensions = [
+    "colon_fence",
+]
+
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.ipynb': 'myst-nb',
+    '.myst': 'myst-nb',
+}
 
 # use language set by highlight directive if no language is set by role
 inline_highlight_respect_highlight = False

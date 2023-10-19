@@ -10,10 +10,7 @@ SERP Handbook
    :maxdepth: 2
    :caption: Contents:
 
-   api
-   markdown_example
-   Jupyter Notebook Interactive <jupyter_notebook_example.ipynb>
-
+   Why does SERP exist? <why-does-serp-exist.md>
 
 
 Indices and tables
