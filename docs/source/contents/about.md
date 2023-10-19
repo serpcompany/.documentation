@@ -64,7 +64,7 @@ Well, that depends on who you ask...
 *SERP doesn't stand for "Sloths Enjoying Rollercoaster Parks"...*
 
 
-```{image} _static/images/SERP-sloths-enjoying-rollercoaster-parks.jpg
+```{image} /_static/images/SERP-sloths-enjoying-rollercoaster-parks.jpg
 :alt: SERP
 :width: 300px
 ```
@@ -77,7 +77,7 @@ Well, that depends on who you ask...
 
 *SERP doesn't stand for "Super Exciting Rodent Party"...*
 
-```{image} _static/images/SERP-super-exciting-rodent-party.jpg
+```{image} /_static/images/SERP-super-exciting-rodent-party.jpg
 :alt: SERP
 :width: 300px
 ```

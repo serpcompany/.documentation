@@ -28,11 +28,9 @@ copyright = 'SERP'
 release = '0.1'
 
 
-# -- General configuration ---------------------------------------------------
-
-# Add any Sphinx extension module names here, as strings. They can be
-# extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
-# ones.
+# -------------------------------------------------------------
+# region General configuration --------------------------------
+# Add any Sphinx extension module names here, as strings. They can be extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 
 
 extensions = [
@@ -77,6 +75,8 @@ comments_config = {
 }
 
 
+
+
 # use language set by highlight directive if no language is set by role
 inline_highlight_respect_highlight = False
 inline_highlight_literals = False
@@ -84,11 +84,19 @@ inline_highlight_literals = False
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 html_static_path = ['_static', '_static/images', '_static/css', '_static/js']
+html_css_files = [
+    'css/custom.css',
+]
+html_js_files = [
+    'js/custom.js',
+]
 
 # List of patterns, relative to source directory, that match files and directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
+# endregion General configuration -----------------------------
+# -------------------------------------------------------------
 
 # -------------------------------------------------------------
 # region HTML output ------------------------------------------
@@ -97,9 +105,11 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = 'sphinx_book_theme'
 # html_theme = 'furo'
 
+html_title = 'SERP Handbook'
+
 html_theme_options = {
     "repository_url": "https://github.com/serpcompany/handbook",
-    "show_navbar_depth": 1,
+    "show_navbar_depth": 2,
     "home_page_in_toc": True,
     "toc_title": " Table of contents",
     "use_repository_button": True,
@@ -111,8 +121,8 @@ html_theme_options = {
         "deepnote_url": "https://deepnote.com",
     },
     "logo": {
-      "image_light": "images/logo-light.png",
-      "image_dark": "images/logo-dark.png",
+      "image_light": "/images/logo-light.png",
+      "image_dark": "/images/logo-dark.png",
    },
 }
 

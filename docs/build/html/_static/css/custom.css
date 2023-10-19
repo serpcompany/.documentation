@@ -3,3 +3,6 @@
     width: auto; /* This maintains the aspect ratio */
 }
 
+.bd-content {
+    min-width: 800px;  /* or any other value you want */
+}
