@@ -29,4 +29,9 @@ See [sphinx extensions](https://sphinx-extensions.readthedocs.io/en/latest/) for
 
 ### Styling:
 
+- [sphinx-design theme](https://sphinx-design.readthedocs.io/en/latest/)
+- [sphinx book theme](https://sphinx-design.readthedocs.io/en/sbt-theme/)
+- [sphinx pydata theme](https://sphinx-design.readthedocs.io/en/pydata-theme/)
+- [pydata theme](https://pydata-sphinx-theme.readthedocs.io/en/latest/user_guide/styling.html)
+- [furo theme](https://pradyunsg.me/furo/quickstart/)
 - https://pydata-sphinx-theme.readthedocs.io/en/latest/user_guide/styling.html
