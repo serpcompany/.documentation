@@ -15,7 +15,7 @@ Write logic tests for all logic files.
 - [Django](https://docs.djangoproject.com/en/3.1/topics/testing/) built in testing tool
 - [pydantic](https://docs.pydantic.dev/latest/) for type checking and data validation
 - [mutmut](https://mutmut.readthedocs.io/en/latest/) for mutation testing
-
+- [django-check-seo](https://github.com/kapt-labs/django-check-seo) although not a traditional "code quality testing tool", there's no point in having a website if our SEO sucks, so we should test for it!
 
 ## End-to-end tests
 *

@@ -424,7 +424,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#python-tools">Python Tools</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#python-code-quality-tools">Python code quality tools</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-code-quality-tools">Running Code Quality Tools</a></li>
 </ul>
             </nav>
@@ -450,17 +450,22 @@ document.write(`
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># let&#39;s code!</span>
 </pre></div>
 </div>
-<section id="python-tools">
-<h2>Python Tools<a class="headerlink" href="#python-tools" title="Link to this heading">#</a></h2>
+<section id="python-code-quality-tools">
+<h2>Python code quality tools<a class="headerlink" href="#python-code-quality-tools" title="Link to this heading">#</a></h2>
 <ol class="arabic simple">
 <li><p><a class="reference external" href="https://flake8.pycqa.org/en/latest/">Flake8</a> - To check for errors, styling issues and complexity.</p></li>
 <li><p><a class="reference external" href="https://pycqa.github.io/isort/">isort</a> - To automatically sort &amp; separate code imports (standard library, third party, local).</p></li>
+</ol>
+<ul class="simple">
+<li><p>Use the <code class="docutils literal notranslate"><span class="pre">--profile</span> <span class="pre">black</span></code> <a class="reference external" href="https://pycqa.github.io/isort/docs/configuration/black_compatibility.html">option</a> when using isort with Black to avoid code style collisions.</p></li>
+</ul>
+<ol class="arabic simple" start="3">
 <li><p><a class="reference external" href="https://pypi.org/project/black/">Black</a> - For code formatting.</p></li>
 <li><p><a class="reference external" href="https://bandit.readthedocs.io/en/latest/">Bandit</a> - To find common security issues in python code, such as hardcoded password strings, deserialization of untrusted data, etc.</p></li>
 <li><p><a class="reference external" href="https://pypi.org/project/safety/">Safety</a> - To check python dependencies for known security vulnerabilities.</p></li>
 </ol>
 <ul class="simple">
-<li><p>Use the <code class="docutils literal notranslate"><span class="pre">--profile</span> <span class="pre">black</span></code> <a class="reference external" href="https://pycqa.github.io/isort/docs/configuration/black_compatibility.html">option</a> when using isort with Black to avoid code style collisions.</p></li>
+<li><p>Bonus: <a class="reference external" href="https://www.codium.ai/">CodiumAI</a> - AI powered test suite for VS Code that will generate tests for your functions with multiple configurations, options and inputs.</p></li>
 </ul>
 </section>
 <section id="running-code-quality-tools">
@@ -518,7 +523,7 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#python-tools">Python Tools</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#python-code-quality-tools">Python code quality tools</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-code-quality-tools">Running Code Quality Tools</a></li>
 </ul>
   </nav></div>

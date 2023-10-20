@@ -11,12 +11,12 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="contents/engineering/frontend.html" />
 <meta property="og:site_name" content="SERP Handbook" />
-<meta property="og:description" content="Tech stack: HTML5, CSS3, JavaScript, pre-compiled JavaScript libraries. Naming: Always look around the codebase for naming conventions, and follow the best practices of the environment (e.g. use ca..." />
+<meta property="og:description" content="Tech stack: HTML5, CSS3, JavaScript, pre-compiled JavaScript libraries. Code Quality: Naming: Always look around the codebase for naming conventions, and follow the best practices of the environmen..." />
 <meta property="og:image:width" content="1146" />
 <meta property="og:image:height" content="600" />
-<meta property="og:image" content="/_images/social_previews/summary_contents_engineering_frontend_31bcfeda.png" />
-<meta property="og:image:alt" content="Tech stack: HTML5, CSS3, JavaScript, pre-compiled JavaScript libraries. Naming: Always look around the codebase for naming conventions, and follow the best p..." />
-<meta name="description" content="Tech stack: HTML5, CSS3, JavaScript, pre-compiled JavaScript libraries. Naming: Always look around the codebase for naming conventions, and follow the best practices of the environment (e.g. use ca..." />
+<meta property="og:image" content="/_images/social_previews/summary_contents_engineering_frontend_637fa073.png" />
+<meta property="og:image:alt" content="Tech stack: HTML5, CSS3, JavaScript, pre-compiled JavaScript libraries. Code Quality: Naming: Always look around the codebase for naming conventions, and fol..." />
+<meta name="description" content="Tech stack: HTML5, CSS3, JavaScript, pre-compiled JavaScript libraries. Code Quality: Naming: Always look around the codebase for naming conventions, and follow the best practices of the environmen..." />
 <meta name="twitter:card" content="summary_large_image" />
 
     <title>Frontend Coding &#8212; SERP Handbook</title>
@@ -425,9 +425,11 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tech-stack">Tech stack</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#naming">Naming</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linting">Linting</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#qa">QA</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#code-quality">Code Quality</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#naming">Naming</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linting-testing">Linting &amp; Testing</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -450,22 +452,29 @@ document.write(`
 <li><p>pre-compiled JavaScript libraries</p></li>
 </ul>
 </section>
+<section id="code-quality">
+<h2>Code Quality<a class="headerlink" href="#code-quality" title="Link to this heading">#</a></h2>
 <section id="naming">
-<h2>Naming<a class="headerlink" href="#naming" title="Link to this heading">#</a></h2>
+<h3>Naming<a class="headerlink" href="#naming" title="Link to this heading">#</a></h3>
 <p>Always look around the codebase for naming conventions, and follow the best practices of the environment (e.g. use <code class="docutils literal notranslate"><span class="pre">camelCase</span></code> variables in JS, <code class="docutils literal notranslate"><span class="pre">snake_case</span></code> in Python).</p>
 </section>
-<section id="linting">
-<h2>Linting<a class="headerlink" href="#linting" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p><a class="reference external" href="https://eslint.org/">ESLint</a></p></li>
+<section id="linting-testing">
+<h3>Linting &amp; Testing<a class="headerlink" href="#linting-testing" title="Link to this heading">#</a></h3>
+<ul>
+<li><a href="https://eslint.org/" target="_blank" rel="nofollow">ESLint</a></li>
+<li><a href="https://learntheweb.courses/topics/html-semantics-checklist/" target="_blank" rel="nofollow">Semantic HTML</a></li>
+<li><a href="https://storybook.js.org/docs/html/writing-tests/accessibility-testing" target="_blank" rel="nofollow">Accessibility</a></li>
+<li><a href="https://storybook.js.org/docs/html/writing-tests/test-runner"><strong>Test runner</strong></a> to automatically test your entire Storybook and catch broken stories.</li>
+<li><a href="https://storybook.js.org/docs/html/writing-tests/visual-testing"><strong>Visual tests</strong></a> capture a screenshot of every story then compare it against baselines to detect appearance and integration issues</li>
+<li><a href="https://storybook.js.org/docs/html/writing-tests/accessibility-testing"><strong>Accessibility tests</strong></a> catch usability issues related to visual, hearing, mobility, cognitive, speech, or neurological disabilities</li>
+<li><a href="https://storybook.js.org/docs/html/writing-tests/interaction-testing"><strong>Interaction tests</strong></a> verify component functionality by simulating user behaviour, firing events, and ensuring that state is updated as expected</li>
+<li><a href="https://storybook.js.org/docs/html/writing-tests/test-coverage"><strong>Coverage tests</strong></a> to measure how much of your code is covered by your tests</li>
+<li><a href="https://storybook.js.org/docs/html/writing-tests/snapshot-testing"><strong>Snapshot tests</strong></a> detect changes in the rendered markup to surface rendering errors or warnings</li>
+<li><a href="https://storybook.js.org/docs/html/writing-tests/stories-in-end-to-end-tests"><strong>End-to-end tests</strong></a> for simulating real user scenarios</li>
+<li><a href="https://storybook.js.org/docs/html/writing-tests/stories-in-unit-tests"><strong>Unit tests</strong></a> for functionality</li>
 </ul>
 </section>
-<section id="qa">
-<h2>QA<a class="headerlink" href="#qa" title="Link to this heading">#</a></h2>
-<p>Checklists to quality check your code with/for:</p>
-<ul>
-<li>Semantic HTML: <a href="https://learntheweb.courses/topics/html-semantics-checklist/" target="_blank" rel="nofollow">Semantic HTML Checklist</a></li>
-</ul></section>
+</section>
 </section>
 
 
@@ -513,9 +522,11 @@ document.write(`
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tech-stack">Tech stack</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#naming">Naming</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linting">Linting</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#qa">QA</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#code-quality">Code Quality</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#naming">Naming</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linting-testing">Linting &amp; Testing</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
