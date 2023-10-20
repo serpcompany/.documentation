@@ -3,6 +3,7 @@
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
+# import sphinx_rtd_theme
 
 # -------------------------------------------------------------
 # region Path setup -------------------------------------------
@@ -48,6 +49,7 @@ extensions = [
     "sphinx_inline_tabs",
     # "sphinx_autobuild",
     'hoverxref.extension',
+    "sphinx_tabs.tabs",
     
 ]
 
@@ -107,6 +109,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'sphinx_book_theme'
 # html_theme = 'furo'
+# html_theme = 'sphinx_rtd_theme'
+
+
 
 html_title = 'SERP Handbook'
 
