@@ -4,12 +4,13 @@
 
 - Content guided by: [posthog](https://posthog.com/handbook/)
 
-### Build Guides:
+### Build Guides & References:
 
-- Reference [cerodell](https://cerodell.github.io/sphinx-quickstart-guide/build/html/books.html) for initial build steps. 
-- Reference [booktheme](https://sphinx-book-theme.readthedocs.io/en/stable/) for further build-out & customization.
-- Reference [jupyterbook](https://jupyterbook.org/en/stable/intro.html) for details on interactive jupyter notebooks.
-- Reference [myst parser](https://myst-parser.readthedocs.io/en/latest/) for additional markdown configurations, extensions, etc.
+- [cerodell](https://cerodell.github.io/sphinx-quickstart-guide/build/html/books.html) for initial build steps. 
+- [booktheme](https://sphinx-book-theme.readthedocs.io/en/stable/) for further build-out & customization.
+- [jupyterbook](https://jupyterbook.org/en/stable/intro.html) for details on interactive jupyter notebooks.
+- [myst parser](https://myst-parser.readthedocs.io/en/latest/) for additional markdown configurations, extensions, etc.
+- [Sphinx with Submodules](https://sphinx-with-submodules.readthedocs.io/en/latest/)
 
 ### Commands:
 
