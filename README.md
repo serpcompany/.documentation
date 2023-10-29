@@ -1,12 +1,17 @@
 # README
 
+
+*** Need to re-do this with submodules, follow: https://sphinx-book-theme.readthedocs.io/en/stable/tutorials/get-started.html#
+
+
+
 ## Resources
 
 - Content guided by: [posthog](https://posthog.com/handbook/)
 
 ### Build Guides & References:
 
-*** Need to re-do this with submodules, follow: https://sphinx-book-theme.readthedocs.io/en/stable/tutorials/get-started.html#
+
 
 
 - [cerodell](https://cerodell.github.io/sphinx-quickstart-guide/build/html/books.html) for initial build steps. 
