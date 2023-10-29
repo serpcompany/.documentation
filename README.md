@@ -1,8 +1,15 @@
 # README
 
 
-*** Need to re-do this with submodules, follow: https://sphinx-book-theme.readthedocs.io/en/stable/tutorials/get-started.html#
+# TODOS
 
+A temporary section to put in notes, todos, etc. for the revamping of the docs
+
+- [ ] add "git flow" as our developer collaboration method to learn/use
+
+
+
+---
 
 
 ## Resources
