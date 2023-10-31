@@ -36,7 +36,6 @@
 - `site.com/shop/<single>/`
 - `site.com/shop/best/<keyword>/ (cluster term)`
 - `site.com/shop/c/<category>/`
-
 - `site.com/shop/brands/`
 - `site.com/shop/brands/<single>/`
 - `site.com/shop/brands/best/<keyword>/ (cluster term)`
