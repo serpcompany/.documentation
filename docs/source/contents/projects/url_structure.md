@@ -12,41 +12,12 @@
 - `site.com/partner/`
 - `site.com/category/<keyword>/`
 
-
 ## BLOG
 - `site.com/blog/`
 - `site.com/blog/<single>/`
 - `site.com/blog/c/<category>/`
 
-
-## GLOSSARY
-- `site.com/glossary/`
-- `site.com/glossary/<single>/`
-- `site.com/glossary/c/<category>/`
-
-
-## PEOPLE
-- `site.com/people/`
-- `site.com/people/<single>/`
-- `site.com/people/c/<category>/`
-
-
-## SHOP
-- `site.com/shop/`
-- `site.com/shop/<single>/`
-- `site.com/shop/best/<keyword>/ (cluster term)`
-- `site.com/shop/c/<category>/`
-- `site.com/shop/brands/`
-- `site.com/shop/brands/<single>/`
-- `site.com/shop/brands/best/<keyword>/ (cluster term)`
-- `site.com/shop/brands/c/<category>/`
-
-
-## TOOLS
-- `site.com/tools/`
-- `site.com/tools/<single>/`
-- `site.com/tools/c/<category>/`
-
+---
 
 ## BOOKS
 - `site.com/books/`
@@ -62,6 +33,7 @@
 - `site.com/courses/c/<category>/`
 
 
+
 ## GAMES
 - `site.com/games/`
 - `site.com/games/<single>/`
@@ -69,15 +41,56 @@
 - `site.com/games/c/<category>/`
 
 
+## GLOSSARY
+- `site.com/glossary/`
+- `site.com/glossary/<single>/`
+- `site.com/glossary/c/<category>/`
+
+
+## PEOPLE
+- `site.com/people/`
+- `site.com/people/<single>/`
+- `site.com/people/c/<category>/`
+
+
+## REVIEWS DIRECTORY (aka COMPANY REVIEWS)
+- `site.com/reviews/`
+- `site.com/reviews/<single>/`
+- `site.com/reviews/best/<keyword>/ (cluster term)`
+- `site.com/reviews/c/<category>/`
+
+
+## SHOP
+- `site.com/shop/`
+- `site.com/shop/<single>/`
+- `site.com/shop/best/<keyword>/ (cluster term)`
+- `site.com/shop/c/<category>/`
+- `site.com/shop/brands/`
+- `site.com/shop/brands/<single>/`
+- `site.com/shop/brands/best/<keyword>/ (cluster term)`
+- `site.com/shop/brands/c/<category>/`
+
+
+
+## TOOLS
+- `site.com/tools/`
+- `site.com/tools/<single>/`
+- `site.com/tools/c/<category>/`
+
+
+
 ---
+
+
+
+
+
 
 # URL Structures - NON-STANDARD
 
 *these deviate from the normal URL patterns bc we have currently ranking websites.*
 
 ## BOXING
-
-
 - `site.com/boxing/`
 - `site.com/boxers/<boxer>/`
 - `site.com/boxing-weight-classes/`
