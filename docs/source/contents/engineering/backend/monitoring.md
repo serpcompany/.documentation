@@ -6,11 +6,6 @@ showTitle: true
 
 # Monitoring
 
-*
-
-## Monitoring Tools
-
-**General:**
-
-- [sentry](https://serpcompany.sentry.io/issues/)
+- Application monitoring - [sentry](https://serpcompany.sentry.io/issues/)
+- Infrastructure monitoring - [Prometheus](https://prometheus.io/)
 
