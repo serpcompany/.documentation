@@ -1,3 +1,10 @@
+---
+title: URL Structure
+sidebar: Handbook
+showTitle: true
+---
+
+
 # URL Structure - STANDARDIZED
 
 ## CORE
