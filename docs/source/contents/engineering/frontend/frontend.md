@@ -33,8 +33,7 @@ Eventually we won't need anything except our storybook designs.
 
 ## Code Quality
 
-
-### Naming
+### Naming conventions
 
 Always look around the codebase for naming conventions, and follow the best practices of the environment (e.g. use `camelCase` variables in JS, `snake_case` in Python).
 
@@ -42,8 +41,15 @@ Always look around the codebase for naming conventions, and follow the best prac
 ### Linting & Testing
 
 <ul>
-<li><a href="https://eslint.org/" target="_blank" rel="nofollow">ESLint</a></li>
-<li><a href="https://learntheweb.courses/topics/html-semantics-checklist/" target="_blank" rel="nofollow">Semantic HTML</a></li>
+<li><a href="https://eslint.org/" target="_blank" rel="nofollow">HTML Syntax: ESLint</a></li>
+<li><a href="https://learntheweb.courses/topics/html-semantics-checklist/" target="_blank" rel="nofollow">Semantic HTML Checklist (need to get this automated)</a></li>
+<li><a href="https://validator.w3.org/" target="_blank" rel="nofollow">W3C Markup Validation</a></li>
+<li><a href="https://github.com/GoogleChrome/lighthouse-ci" target="_blank" rel="nofollow">Google Lighthouse CI</a></li>
+</ul>
+
+
+### Storybook Testing
+<ul>
 <li><a href="https://storybook.js.org/docs/html/writing-tests/accessibility-testing" target="_blank" rel="nofollow">Accessibility</a></li>
 <li><a href="https://storybook.js.org/docs/html/writing-tests/test-runner" target="_blank" rel="nofollow"><strong>Test runner</strong></a> to automatically test your entire Storybook and catch broken stories.</li>
 <li><a href="https://storybook.js.org/docs/html/writing-tests/visual-testing" target="_blank" rel="nofollow"><strong>Visual tests</strong></a> capture a screenshot of every story then compare it against baselines to detect appearance and integration issues</li>
