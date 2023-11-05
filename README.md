@@ -1,7 +1,7 @@
 # README
 
 
-# TODOS
+## TODOS
 
 A temporary section to put in notes, todos, etc. for the revamping of the docs
 
