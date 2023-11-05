@@ -22,8 +22,10 @@ showTitle: true
 
 ## BLOG
 - `site.com/blog/`
-- `site.com/blog/<single>/`
 - `site.com/blog/c/<category>/`
+- `site.com/post/<single>/`
+
+
 
 ---
 
