@@ -19,6 +19,7 @@ showTitle: true
 - `site.com/partner/`
 - `site.com/category/<keyword>/`
 
+
 ## BLOG
 - `site.com/blog/`
 - `site.com/blog/<single>/`
@@ -40,7 +41,6 @@ showTitle: true
 - `site.com/courses/c/<category>/`
 
 
-
 ## GAMES
 - `site.com/games/`
 - `site.com/games/<single>/`
@@ -60,11 +60,14 @@ showTitle: true
 - `site.com/people/c/<category>/`
 
 
-## REVIEWS DIRECTORY (aka COMPANY REVIEWS)
+## REVIEWS / DIRECTORY / COMPANY / LISTINGS
 - `site.com/reviews/`
 - `site.com/reviews/<single>/`
 - `site.com/reviews/best/<keyword>/ (cluster term)`
 - `site.com/reviews/c/<category>/`
+- `site.com/reviews/<single>/alternatives/`
+- `site.com/reviews/<single>-vs-<single>/comparison/`
+- `site.com/reviews/<single>/up-down-status/`
 
 
 ## SHOP
