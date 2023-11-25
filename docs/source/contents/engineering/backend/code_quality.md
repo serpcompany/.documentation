@@ -31,7 +31,6 @@ Here are the tools that we all (must) use to ensure that we're all following the
 4. [Bandit](https://bandit.readthedocs.io/en/latest/) - To find common security issues in python code, such as hardcoded password strings, deserialization of untrusted data, etc.
 5. [Safety](https://pypi.org/project/safety/) - To check python dependencies for known security vulnerabilities.
 
-* Bonus: [CodiumAI](https://www.codium.ai/) - AI powered test suite for VS Code that will generate tests for your functions with multiple configurations, options and inputs.
 
 
 ## Running Code Quality Tools
