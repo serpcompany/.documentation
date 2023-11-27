@@ -30,24 +30,24 @@ showTitle: true
 ---
 
 ## BOOKS
-- `site.com/books/`
-- `site.com/books/<single>/`
-- `site.com/books/best/<keyword>/ (cluster term)`
-- `site.com/books/c/<category>/`
+- index: `site.com/books/`
+- single: `site.com/books/<single>/`
+- collection: `site.com/books/best/<keyword>/ (cluster term)`
+- category: `site.com/books/c/<category>/`
 
 
 ## COURSES
-- `site.com/courses/`
-- `site.com/courses/<single>/`
-- `site.com/courses/best/<keyword>/ (cluster term)`
-- `site.com/courses/c/<category>/`
+- index: `site.com/courses/`
+- single: `site.com/courses/<single>/`
+- collection: `site.com/courses/best/<keyword>/ (cluster term)`
+- category: `site.com/courses/c/<category>/`
 
 
 ## GAMES
-- `site.com/games/`
-- `site.com/games/<single>/`
-- `site.com/games/best/<keyword>/ (cluster term)`
-- `site.com/games/c/<category>/`
+- index: `site.com/games/`
+- single: `site.com/games/<single>/`
+- collection: `site.com/games/best/<keyword>/ (cluster term)`
+- category: `site.com/games/c/<category>/`
 
 
 ## GLOSSARY
@@ -62,21 +62,23 @@ showTitle: true
 - `site.com/people/c/<category>/`
 
 
-## REVIEWS / DIRECTORY / COMPANY / LISTINGS
-- `site.com/reviews/`
-- `site.com/reviews/<single>/`
-- `site.com/reviews/best/<keyword>/ (cluster term)`
-- `site.com/reviews/c/<category>/`
-- `site.com/reviews/<single>/alternatives/`
-- `site.com/reviews/<single>-vs-<single>/comparison/`
+## COMPANY / REVIEWS / DIRECTORY
+- index: `site.com/reviews/`
+- single: `site.com/reviews/<single>/`
+- collection: `site.com/reviews/best/<keyword>/ (cluster term)`
+- category: `site.com/reviews/c/<category>/`
+- alternatives: `site.com/reviews/<single>/alternatives/`
+- comparison: `site.com/reviews/comparison/?=one-vs-two-vs-three`
 - `site.com/reviews/<single>/up-down-status/`
 
 
 ## SHOP
-- `site.com/shop/`
-- `site.com/shop/<single>/`
-- `site.com/shop/best/<keyword>/ (cluster term)`
-- `site.com/shop/c/<category>/`
+- index: `site.com/shop/`
+- single: `site.com/shop/<single>/`
+- collection: `site.com/shop/best/<keyword>/ (cluster term)`
+- category: `site.com/shop/c/<category>/`
+- alternatives: `site.com/shop/<single>/alternatives/`
+- comparison: `site.com/reviews/comparison/?=one-vs-two-vs-three`
 - `site.com/shop/brands/`
 - `site.com/shop/brands/<single>/`
 - `site.com/shop/brands/best/<keyword>/ (cluster term)`
